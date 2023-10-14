@@ -1,0 +1,86 @@
+
+#lbph_one,#lbph_two,#lbph_three,#lbph_four,#lbph_five{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#top{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    background-color: black;
+    border-radius: 20px;
+    width: 3%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.fa-house{
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.lbph_info{
+    width: 95%;
+    height: 100%;
+    letter-spacing: 1px;
+}
+
+.lbph_info p{
+    font-size: 1.2rem;
+}
+
+
+.lbph_info h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.lbph_info h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--back-color);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lbph_info ul{
+    /* background-color: red; */
+    width: 97%;
+    margin: auto;
+}
+
+.lbph_info ul li{
+    font-size: 1.2rem;
+}
+
+.lbph_img_con{
+    /* background-color: red; */
+    width: 99%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 220px;
+
+}
+
+#euclidean{
+    width: 45%;
+    height: 100px;
+}
+
+.lbph_img_con img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,85 @@
+
+
+
+#facedetupload{
+    /* background-color: red; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.facedetbtn{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+.facedetbtn input{
+    display: none;
+}
+
+.facedetbtn button{
+    width: 60%;
+    height: 20%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facedetbtn button:hover{
+    color: white;
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,165,158,1) 0%, rgba(12,156,210,1) 0%, rgba(8,196,129,1) 93%);
+}
+
+.facedetbtn label{
+    width: 60%;
+    height: 20%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.facedetbtn label:hover{
+    color: white;
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,165,158,1) 0%, rgba(12,156,210,1) 0%, rgba(8,196,129,1) 93%);
+}
+
+.facedetvideo{
+    width: 60%;
+    height: 100%;
+}
+
+.facedetvideo{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facedet_camera{
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+}
+
+#facedet_camera_src{
+    width: 100%;
+    height: 100%;
+}

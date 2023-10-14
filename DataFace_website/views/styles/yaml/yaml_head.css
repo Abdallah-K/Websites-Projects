@@ -1,0 +1,51 @@
+
+
+
+#yaml_head{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 55vh;
+    display: flex;
+}
+
+.yaml_head_one{
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yaml_head_img{
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px  black;
+}
+
+.yaml_head_img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.yaml_head_two{
+    /* background-color: green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.yaml_head_two h1{
+    border-bottom: 2px solid black;
+}
+
+.yaml_head_two p{
+    font-weight: bold;
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --pri-color:rgb(7, 172, 172);
+    --gray-color:#81867e;
+    --black-color :#000;
+    --back-color:#edf1f4;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+#RegisterPage{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.register_card{
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.register_card_one{
+    width: 55%;
+    height: 100%;
+    position: relative;
+}
+
+.register_card_one img{
+    width: 100%;
+    height: 100%;
+}
+
+.register_btns{
+    position: absolute;
+    width: 50%;
+    height: 10%;
+    bottom: 0;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.register_btns button{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: var(--gray-color);
+    cursor: pointer;
+}
+
+.register_btns button:hover{
+    background-color: white;
+}
+
+.register_card_two{
+    width: 45%;
+    height: 100%;
+}
+
+.register_title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_title h1{
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.register_body{
+    width: 100%;
+    height: 80%;
+}
+
+
+#Regform{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Regform input{
+    width: 80%;
+    height: 15%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+#Regform button{
+    background-color: var(--gray-color);
+    color: white;
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 10%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#Regform button:hover{
+    background-color: rgb(145, 134, 134);
+}
+
+.reglink{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

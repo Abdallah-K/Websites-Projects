@@ -1,0 +1,79 @@
+
+
+
+#faceReco{
+    /* background-color: red; */
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.facereco_btn{
+    /* background-color: green; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.facereco_btn input{
+    display: none;
+}
+
+.facereco_btn label{
+    border: 2px solid black;
+    height: 20%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facereco_btn label:hover{
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,165,158,1) 0%, rgba(12,156,210,1) 0%, rgba(8,196,129,1) 93%);
+    color: white;
+}
+
+
+.facereco_btn button{   
+    background-color: transparent;
+    border: solid 2px black;
+    color: white;
+    width: 60%;
+    height: 20%;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.facereco_btn button:hover{
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,165,158,1) 0%, rgba(12,156,210,1) 0%, rgba(8,196,129,1) 93%);
+    color: white;
+}
+
+.facereco_border{
+    /* background-color: yellow; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facereco_camera{
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+}
+
+#facereco_camera_src{
+    width: 100%;
+    height: 100%;
+}

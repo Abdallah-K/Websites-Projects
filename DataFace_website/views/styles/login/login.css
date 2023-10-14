@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --pri-color:rgb(7, 172, 172);
+    --gray-color:#81867e;
+    --black-color :#000;
+    --back-color:#edf1f4;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.login_page{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_card{
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    box-shadow: 1px 1px 1px 1px gray;
+
+}
+
+.login_card_one{
+    width: 55%;
+    height: 100%;
+    position: relative;
+}
+
+.login_card_two{
+    width: 45%;
+    height: 100%;
+}
+
+
+.login_card_data{
+    width: 100%;
+    height: 100%;
+}
+
+
+.login_card_data img{
+    width: 100%;
+    height: 100%;
+}
+
+.login_card_button{
+    position: absolute;
+    /* background-color: crimson; */
+    width: 50%;
+    height: 10%;
+    bottom:0;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login_card_button button{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: var(--gray-color);
+    cursor: pointer;
+}
+
+.login_card_button button:hover{
+    background-color: white;
+}
+
+.login_title{
+    /* background-color: green; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_title h1{
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.login_body{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 80%;
+}
+
+.login_form{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 80%;
+}
+
+.login_link{
+    /* background-color: chartreuse; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formdata{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+#formdata input{
+    width: 80%;
+    height: 15%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+#formdata button{
+    background-color: var(--gray-color);
+    color: white;
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 10%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#formdata button:hover{
+    background-color: rgb(145, 134, 134);
+}

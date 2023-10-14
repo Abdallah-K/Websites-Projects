@@ -1,0 +1,54 @@
+
+
+
+#faceDet{
+    background-color: var(--back-color);
+    width: 100%;
+    height: 55vh;
+    display: flex;
+}
+
+.facedet_one{
+    /* background-color: green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facedet_head_img{
+    width: 95%;
+    height: 95%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px  black;
+}
+
+.facedet_head_img img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.facedet_two{
+    /* background-color: yellow; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+
+.facedet_two h1{
+    font-size: 1.7rem;
+    border-bottom: 2px solid black;
+}
+
+.facedet_two p{
+    font-weight: bold;
+}

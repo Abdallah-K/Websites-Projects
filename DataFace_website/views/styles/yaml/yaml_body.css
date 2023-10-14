@@ -1,0 +1,28 @@
+
+
+#yaml_body{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#yml_gene{
+    background-color: transparent;
+    border:2px solid black;
+    outline: none;
+    width: 50%;
+    height: 30%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+#yml_gene:hover{
+    color: white;
+    background: rgb(2,0,36); 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,165,158,1) 0%, rgba(12,156,210,1) 0%, rgba(8,196,129,1) 93%);
+}
