@@ -1,0 +1,99 @@
+
+:root{
+    --pri-color:#09c0c0;
+    --hover-color:#04F0F0;
+}
+
+
+.drawing_section{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+}
+
+.drawing_title{
+    /* background-color: blue; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drawing_title h1{
+    color: var(--pri-color);
+    font-size: 2.8rem;
+    border-bottom: 2px solid var(--pri-color);
+}
+
+.drawing_btn{
+    /* background-color: chocolate; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#toggle_label_gray{
+    background-color: var(--pri-color);
+    border: none;
+    color: white;
+    width: 25%;
+    height: 90%;
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+#toggle_label_gray:hover{
+    background-color: var(--hover-color);
+}
+
+#toggle_label_rgb{
+    background-color: var(--pri-color);
+    border: none;
+    color: white;
+    width: 25%;
+    height: 90%;
+    font-weight: bold;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+#toggle_label_rgb:hover{
+    background-color: var(--hover-color);
+}
+
+
+.drawing_display{
+    /* background-color: crimson; */
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plot_gray{
+    /* background-color: orange; */
+    width: 95%;
+    height: 95%;
+}
+
+#plot_rgb{
+    /* background-color: red; */
+    width: 95%;
+    height: 95%;
+}
+
+.footer{
+    background-color: var(--pri-color);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
