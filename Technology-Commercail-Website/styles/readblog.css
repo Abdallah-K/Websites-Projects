@@ -1,0 +1,171 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#Readpage{
+    /* background-color: red; */
+    width: 100%;
+    height: 670px;
+}
+
+.readform{
+    width: 100%;
+    height: 600px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.readcard{
+    background-color: #2980b9;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+}
+
+.readimg{
+    width: 40%;
+    height: 100%;
+    /* background-color: red; */
+}
+
+.readimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.readdata{
+    width: 60%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.readtitle{
+    width: 100%;
+    height: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.readtitle h2{
+    background-color: gold;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.readdesc{
+    /* background-color: red; */
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+.readtext{
+    width: 100%;
+    height: 25%;
+    /* background-color: red; */
+    color: white;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 1px black);
+    letter-spacing: 1px;
+}
+
+
+.readuser{
+    width: 100%;
+    height: 25%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.readuser p{
+    background-color: gold;
+    width: 30%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+
+
+@media (max-width:500px){
+    .readcard{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .readimg{
+        width: 100%;
+        height: 50%;
+    }
+
+    .readdata{
+        width: 100%;
+        height: 50%;
+    }
+
+    .readtitle,.readdesc,.readtext,.readuser{
+        width: 100%;
+        height: 25%;
+        /* font-size: 0.6rem; */
+    }
+
+    .readtitle{
+        /* background-color: red; */
+        font-size: 0.8rem;
+    }
+
+    .readdesc{
+        font-size: 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .readtext{
+        font-size: 0.7rem;
+        overflow: auto;
+    }
+
+    .readuser{
+        /* background-color: red; */
+        font-size: 0.9rem;
+    }
+
+    .readuser p{
+        height: 40%;
+        width: 50%;
+    }
+
+}
