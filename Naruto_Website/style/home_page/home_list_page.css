@@ -1,0 +1,138 @@
+
+
+#listPage{
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.list_page_header{
+    /* background-color: green; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_page_header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+    filter: drop-shadow(1px 1px 5px black);
+}
+
+.list_page_body{
+    /* background-color: violet; */
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_page_body_card{
+    width: 100%;
+    height: 90%;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.list_page_body_card_char{
+    background-color: aqua;
+    /* width: 25%; */
+    width: 100%;
+    height: 100%;
+}
+
+.char_one,
+.char_two,
+.char_three,
+.char_four,
+.char_five{
+    /* background-color: firebrick; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-rl; 
+    text-orientation: upright; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+
+    /* background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  */
+}
+
+
+.char_one h1, 
+.char_two h1, 
+.char_three h1, 
+.char_four h1, 
+.char_five h1{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.char_one:hover h1,
+.char_two:hover h1,
+.char_three:hover h1,
+.char_four:hover h1,
+.char_five:hover h1
+{
+    opacity: 0;
+}
+
+.char_one img,
+.char_two img,
+.char_three img,
+.char_four img,
+.char_five img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* filter: grayscale(100%); */
+    opacity: 0; /* Hide image initially */
+    visibility: hidden; /* Prevents interaction when hidden */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.char_one:hover img,
+.char_two:hover img,
+.char_three:hover img,
+.char_four:hover img,
+.char_five:hover img {
+    /* filter: grayscale(0%); */
+    opacity: 1; /* Make image visible */
+    visibility: visible;
+}
+
+.char_one { /* Hashirama - Earth & Nature */
+    background: linear-gradient(135deg, #0D3B1B, #1B5E20, #4CAF50, #81C784);
+    /* Deep Forest Green → Dark Green → Vibrant Green → Soft Green */
+}
+
+.char_two { /* Minato - Speed & Lightning */
+    background: linear-gradient(135deg, #FF6F00, #FF8F00, #FFD700, #FFF176);
+    /* Fiery Orange → Deep Orange → Gold → Bright Yellow */
+}
+
+.char_three { /* Obito - Mystery & Darkness */
+    background: linear-gradient(135deg, #020D19, #0D1B2A, #1B263B, #415A77);
+    /* Almost Black → Deep Midnight Blue → Dark Grayish Blue → Steely Blue */
+}
+
+.char_four { /* Kaguya - Celestial & Divine */
+    background: linear-gradient(135deg, #E8EAF6, #C5CAE9, #9575CD, #7E57C2);
+    /* Soft White-Blue → Light Lavender → Royal Purple → Deep Violet */
+}
+
+.char_five { /* Madara - Power & Chaos */
+    background: linear-gradient(135deg, #280000, #4A0000, #8B0000, #FF4500);
+    /* Darkest Red → Deep Maroon → Blood Red → Fiery Orange */
+}

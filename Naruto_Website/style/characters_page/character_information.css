@@ -1,0 +1,218 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#characterInformation{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.character_information_header{
+    /* background-color: #FF4500; */
+    background: linear-gradient(to right, #FF4500, #F1C40F);
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.character_information_header_logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.character_information_header_logo_container{
+    width: 80%;
+    height: 90%;
+}
+
+.character_information_header_logo_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.character_information_header_nav{
+    /* background-color: red; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.character_information_header_nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease, background 0.3s ease, padding 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.character_information_header_nav a:hover {
+    background-color: #2C3E50;  
+}
+
+
+.character_information_body{
+    background-color: #2C3E50;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.character_information_body_card{
+    background: linear-gradient(to bottom right, #2C3E50, #4B6587);
+
+    width: 95%;
+    height: 95%;
+    display: flex;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+.character_information_body_card_img_section{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.character_information_body_card_img_section_header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.character_information_body_card_img_section_header h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.character_information_body_card_img_section_img_container{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.character_information_body_card_img_section_img_container_card{
+    width: 75%;
+    height: 40%;
+}
+
+.character_information_body_card_img_section_img_container_card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.character_information_body_card_data_section{
+    width: 70%;
+    height: 100%;
+}
+
+.character_information_body_card_data_section_header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_navs_links{
+    background-color: #273746;
+    width: 10%;
+    height: 50%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transition: 0.3s all ease-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header_navs_links:hover{
+    transform: scale(0.9);
+    background-color: #1B2631;
+}
+
+.character_information_body_card_data_section_data{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-div {
+    display: none;
+    background-color: #f9f9f9;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    height: 90%;
+    overflow-y: auto;
+
+}
+
+.content-div p{
+    background-color: #273746;
+    color: white;
+    margin: 10px;
+    overflow: hidden;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.content-div h4{
+    background-color: #2C3E50 ;
+    color: #ECF0F1;
+    margin: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-div li{
+    background-color: #16A085;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    margin: 10px;
+    overflow: hidden;
+    list-style: none;
+    height: 7%;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    overflow: hidden;
+}

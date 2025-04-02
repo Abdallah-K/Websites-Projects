@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#mangaPage{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+}
+
+
+.manga_page_body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.manga_page_body img{
+    width: 100%;
+    height: 100%;
+}
+
+.manga_page_body_overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.manga_page_body_overlay_header{
+    background-color: rgba(255, 103, 0, 0.7); 
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.manga_page_body_overlay_header_logo_container{
+    /* background-color: red; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manga_page_body_overlay_header_logo{
+    width: 80%;
+    height: 80%;
+}
+
+.manga_page_body_overlay_header_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.manga_page_body_overlay_header_nav{
+    /* background-color: red; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.manga_page_body_overlay_header_nav a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.manga_page_body_overlay_header_nav a:hover{
+    color: #2C3E50;
+}
+
+.manga_page_body_overlay_body{
+    /* background-color: red; */
+    width: 100%;
+    height: 85%;
+}
+
+
+.manga_page_body_overlay_body_card {
+    /* background-color: red; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+
+
+.manga_card {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85%;
+    margin: 10px;
+    flex: 0 0 auto;
+    padding-right: 10px; 
+    transition: 0.3s all ease-out;
+}
+
+.manga_card:hover{
+    transform: scale(1.1);
+}
+
+.manga_card img{
+    width: 100%;
+    height: 100%;
+} 
+
+.manga_page_body_overlay_body_slider {
+    /* background-color: rgba(255, 103, 0, 0.7);  */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.manga_slider {
+    width: 80%;
+    height: 5px;
+    background: rgb(241, 239, 239);
+    border-radius: 5px;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+
+
+.manga_slider::-webkit-slider-thumb {
+    width: 40px;               
+    height: 40px;             
+    background: url('sasuke.png') no-repeat center center;  
+    background-size: cover;    
+    border-radius: 50%;      
+    -webkit-appearance: none;  
+    appearance: none;          
+    cursor: grab;       
+}
+

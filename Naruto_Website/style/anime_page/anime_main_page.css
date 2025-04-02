@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#animePage{
+    /* background-color: red; */
+    width: 100%;
+    height: 100vh;
+}
+
+.anime_page_header{
+    background: linear-gradient(to right, #FF4500, #F1C40F);
+    /* background-color: aqua; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.anime_page_header_logo_conatianer{
+    /* background-color: blue; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.anime_page_header_logo{
+    width: 80%;
+    height: 80%;
+}
+
+.anime_page_header_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.anime_page_header_nav{
+    /* background-color: red; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.anime_page_header_nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease, background 0.3s ease, padding 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.anime_page_header_nav a:hover {
+    background-color: #2C3E50;  
+}
+
+
+/* .anime_page_body{
+    background-color: blue;
+    width: 100%;
+    height: 85%;
+}*/
+
+
+
+.anime_page_body {
+    /* background-color: red; */
+    width: 100%;
+    height: 85%;
+    background-color: #2C3E50;
+    overflow-y: scroll; 
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.anime_table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anime_table thead {
+    background-color: #FF4500;
+    color: white;
+}
+
+.anime_table th,
+.anime_table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #F1C40F;
+    filter: drop-shadow(1px 1px 5px black);
+    font-weight: bold;
+}
+
+.anime_table tbody tr:hover {
+    background-color: #19232c;
+    cursor: pointer;
+}
+
+.anime_table th {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.anime_table td {
+    font-size: 16px;
+}
+

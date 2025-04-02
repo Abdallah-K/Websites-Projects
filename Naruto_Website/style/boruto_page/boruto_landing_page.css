@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --pri-color:#00a7de;
+}
+
+#borutoPage{
+    background-color: var(--pri-color);
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(black 1px, transparent 1px);
+    background-size: 30px 30px; 
+}
+
+.boruto_page_header{
+    /* background-color: green; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.boruto_page_header_logo_container{
+    /* background-color: red; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boruto_page_header_logo{
+    /* background-color: blueviolet; */
+    width: 80%;
+    height: 80%;
+}
+
+.boruto_page_header_logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.boruto_page_header_nav{
+    /* background-color: brown; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boruto_page_header_nav a{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.boruto_page_header_nav a:hover{
+    color: white;
+}
+
+
+.boruto_page_body{
+    /* background-color: violet; */
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
+.boruto_page_body_section_one{
+    /* background-color: aqua; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boruto_page_body_section_one_container{
+    /* background-color: var(--pri-color); */
+    /* background-color: violet; */
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boruto_page_body_section_one_container_img{
+    /* background-color: green; */
+    /* background-color: var(--pri-color); */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boruto_page_body_section_one_container_img img{
+    width: 95%;
+    height: 100%;
+}
+
+.boruto_page_body_section_one_container_data{
+    background-color: var(--pri-color);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    padding: 10px;
+}
+
+.boruto_page_body_section_one_container_data p{
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* filter: drop-shadow(1px 1px 5px white); */
+}
+
+.boruto_page_body_section_two{
+    /* background-color: brown; */
+    overflow: hidden;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boruto_page_body_section_two_img_container{
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 100%;
+}
+
+.boruto_page_body_section_two_img_container img{
+    width: 100%;
+    height: 100%;
+}

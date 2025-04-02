@@ -1,0 +1,175 @@
+
+
+#elementsPage {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color);
+    /* background: linear-gradient(135deg, #323353 30%, var(--bg-color) 70%); */
+    /* background-color: var(--yellow-color); */
+    /* background-color: #e4be29; */
+    display: flex;
+    position: relative;
+}
+
+.element_data_section{
+    /* background-color: aqua; */
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.element_data_section_info{
+    /* background-color: var(--bg-sec-color); */
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+
+    padding: 10px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 2;
+}
+
+.element_data_section_info h1{
+    color: var(--pri-color);
+    /* color: black; */
+    filter: drop-shadow(1px 1px 5px black);
+    font-size: 2.5rem;
+}
+
+.element_data_section_info h2{
+    color: var(--pri-color);
+    /* color: black; */
+    filter: drop-shadow(1px 1px 5px black);
+    font-size: 2rem;
+}
+
+.element_data_section_info p{
+    color: white;
+    filter: drop-shadow(1px 1px 5px black);
+    letter-spacing: 1px;
+}
+
+.jutsu_imgs_contaier{
+    /* background-color: red; */
+    width: 80%;
+    height: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jutsu_imgs_contaier_card{
+    /* background-color: blue; */
+    height: 90%;
+    width: 33%;
+    /* flex:  1 1 auto; */
+    margin: 10px;
+}
+
+.jutsu_imgs_contaier_card img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.element_figure_section{
+    /* background-color: blue; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.element_figure_section_card {
+    /* background-color: var(--bg-color); */
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+    width: 60%;
+    height: 70%;
+    z-index: 2;
+}
+
+.element_figure_section_card_navbar{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.element_figure_section_card_navbar_btn{
+    /* background-color: yellow; */
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.element_figure_section_card_navbar_btn img{
+    width: 80%;
+    height: 80%;
+    transition: 0.2s all ease-out;
+    cursor: pointer;
+}
+
+.element_figure_section_card_navbar_btn:hover img{
+    transform: scale(0.9);
+}
+
+.element_figure_section_card_img{
+    /* background-color: brown; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element_figure_section_card_img_container{
+    /* background-color: black; */
+    width: 70%;
+    height: 85%;
+    animation: animImg 1s ease-out infinite alternate;
+}
+
+.element_figure_section_card_img_container img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes animImg {
+    from {transform: translateY(10px);}
+    to {transform: translateY(0px);}
+}
+
+.wave{
+    position: absolute;
+    bottom: 0%;
+    /* left: 0%; */
+}
+
+.wave_top{
+    position: absolute;
+    transform: scaleY(-1);
+    top: 0%;
+}

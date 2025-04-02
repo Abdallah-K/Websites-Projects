@@ -1,0 +1,76 @@
+
+
+#borutoCharacter{
+    background-color: var(--pri-color);
+    width: 100%;
+    height: 100vh;
+}
+
+
+.boruto_character_header{
+    /* background-color: green; */
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.boruto_character_body{
+    /* background-color: violet; */
+    width: 100%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    justify-items: center; 
+    align-items: center; 
+}
+
+
+.boruto_character_body_card{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%; 
+    /* height: 90%; */
+    height: 220px;
+    display: flex;
+}
+
+
+.boruto_character_body_card_img_section{
+    /* background-color: blueviolet; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.boruto_character_body_card_img_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(0 0, 100% 0, 53% 100%, 0% 100%);
+}
+
+.boruto_character_body_card_data_section{
+    /* background-color: aqua; */
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.boruto_character_body_card_data_section p{
+    letter-spacing:1px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
